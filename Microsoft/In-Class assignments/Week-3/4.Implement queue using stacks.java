@@ -1,4 +1,4 @@
-lass MyQueue {
+class MyQueue {
     Stack<Integer> storage = null;
     Stack<Integer> temp = null;
     
