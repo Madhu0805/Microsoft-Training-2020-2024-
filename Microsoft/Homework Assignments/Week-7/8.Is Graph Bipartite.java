@@ -1,4 +1,4 @@
-
+class Solution{
 public boolean isBipartite(int[][] g) {
         int[] colors = new int[g.length];
         for (int i = 0; i < g.length; i++)
@@ -19,3 +19,4 @@ public boolean isBipartite(int[][] g) {
             }
         return true;
     }
+}
